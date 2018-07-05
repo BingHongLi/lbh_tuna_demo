@@ -67,16 +67,16 @@ Will add test data (10 tuna catches)to our network
  */
 func (s *SmartContract) initLedger(APIstub shim.ChaincodeStubInterface) sc.Response {
         tuna := []Tuna{
-                Tuna{Vessel: "923F", Location: "67.0006, -70.5476", Timestamp: "1504054225", Holder: "Miriam"},
-                Tuna{Vessel: "M83T", Location: "91.2395, -49.4594", Timestamp: "1504057825", Holder: "Dave"},
-                Tuna{Vessel: "T012", Location: "58.0148, 59.01391", Timestamp: "1493517025", Holder: "Igor"},
-                Tuna{Vessel: "P490", Location: "-45.0945, 0.7949", Timestamp: "1496105425", Holder: "Amalea"},
-                Tuna{Vessel: "S439", Location: "-107.6043, 19.5003", Timestamp: "1493512301", Holder: "Rafa"},
-                Tuna{Vessel: "J205", Location: "-155.2304, -15.8723", Timestamp: "1494117101", Holder: "Shen"},
-                Tuna{Vessel: "S22L", Location: "103.8842, 22.1277", Timestamp: "1496104301", Holder: "Leila"},
-                Tuna{Vessel: "EI89", Location: "-132.3207, -34.0983", Timestamp: "1485066691", Holder: "Yuan"},
-                Tuna{Vessel: "129R", Location: "153.0054, 12.6429", Timestamp: "1485153091", Holder: "Carlo"},
-                Tuna{Vessel: "49W4", Location: "51.9435, 8.2735", Timestamp: "1487745091", Holder: "Fatima"},
+                Tuna{Vessel: "923F", Location: "太平洋", Timestamp: "20180701", Holder: "Miriam"},
+		Tuna{Vessel: "M83T", Location: "大西洋", Timestamp: "20180701", Holder: "Dave"},
+		Tuna{Vessel: "T012", Location: "印度洋", Timestamp: "20180703", Holder: "Igor"},
+		Tuna{Vessel: "P490", Location: "北冰洋", Timestamp: "20180703", Holder: "Amalea"},
+		Tuna{Vessel: "S439", Location: "南冰洋", Timestamp: "20180703", Holder: "Rafa"},
+		Tuna{Vessel: "J205", Location: "太平洋", Timestamp: "20180704", Holder: "Shen"},
+		Tuna{Vessel: "S22L", Location: "大西洋", Timestamp: "20180705", Holder: "Leila"},
+		Tuna{Vessel: "EI89", Location: "印度洋", Timestamp: "20180705", Holder: "Yuan"},
+		Tuna{Vessel: "129R", Location: "北冰洋", Timestamp: "20180705", Holder: "Carlo"},
+		Tuna{Vessel: "49W4", Location: "南冰洋", Timestamp: "20180703", Holder: "Fatima"},
         }
 
         i := 0
