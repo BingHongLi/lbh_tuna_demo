@@ -1,0 +1,11 @@
+使用Goland IDE mapping此資料夾後
+
+針對lbh_tuna_app.go進行編寫
+
+而後使用 simulate_chaincode.sh，進行合約掛載
+` sh simulate_chaincode.sh `
+
+第一次開發，先使用install_instantiate_chaincode.sh，在開發環境中進行部署調用
+` sh install_instantiate_chaincode.sh`
+
+而後均使用invoke_contract_simple，進行合約調用即可。
