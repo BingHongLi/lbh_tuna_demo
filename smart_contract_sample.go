@@ -176,11 +176,11 @@ func (t *SampleChaincode) Invoke(stub shim.ChaincodeStubInterface) peer.Response
 }
 
 // 啟用智能合約 
-func main() {
-	err := shim.Start(new(SampleChaincode))
-	if err != nil {
-		fmt.Println("Could not start SampleChaincode")
-	} else {
-		fmt.Println("SampleChaincode successfully started")
-	}
-}
+//func main() {
+//	err := shim.Start(new(SampleChaincode))
+//	if err != nil {
+//		fmt.Println("Could not start SampleChaincode")
+//	} else {
+//		fmt.Println("SampleChaincode successfully started")
+//	}
+//}
